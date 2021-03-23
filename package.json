@@ -1,0 +1,41 @@
+{
+  "name": "gobarber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "typeorm/**",
+      "**/typeorm/**"
+    ]
+  },
+  "author": "Paulo Clemente <clementedbarros@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit":"git-cz"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "@gobarber/eslint-config": "*",
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "^5.2.0",
+    "ts-jest": "^26.5.3",
+    "typescript": "^4.2.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  }
+}
