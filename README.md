@@ -50,19 +50,28 @@ Describe your project
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Autenticação de prestadores de serviço;
+:heavy_check_mark: Cadastro de prestadores de serviço;
+:heavy_check_mark: Mensagens de erro em forma de toast;
+:heavy_check_mark: Painel de visualização dos agendamentos;
+:heavy_check_mark: Envios de notificações ao agendar serviço;
+:heavy_check_mark: Marcação de notificação como lida;
+:heavy_check_mark: Tela para atualização de dados, senha;
+:heavy_check_mark: Upload e Atualização de imagem(avatar) do usuário
+
+
+
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Docker](https://www.docker.com/docker-community)
+- [AWS](https://aws.amazon.com)
 
 ## :white_check_mark: Requirements ##
 
