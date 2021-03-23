@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Gobarber" />
+  <img src=".github/LogoColor.png" alt="Gobarber" />
 
   &#xa0;
 
