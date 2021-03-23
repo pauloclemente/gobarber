@@ -50,13 +50,13 @@ Describe your project
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Autenticação de prestadores de serviço;
-:heavy_check_mark: Cadastro de prestadores de serviço;
-:heavy_check_mark: Mensagens de erro em forma de toast;
-:heavy_check_mark: Painel de visualização dos agendamentos;
-:heavy_check_mark: Envios de notificações ao agendar serviço;
-:heavy_check_mark: Marcação de notificação como lida;
-:heavy_check_mark: Tela para atualização de dados, senha;
+:heavy_check_mark: Autenticação de prestadores de serviço;\
+:heavy_check_mark: Cadastro de prestadores de serviço;\
+:heavy_check_mark: Mensagens de erro em forma de toast;\
+:heavy_check_mark: Painel de visualização dos agendamentos;\
+:heavy_check_mark: Envios de notificações ao agendar serviço;\
+:heavy_check_mark: Marcação de notificação como lida;\
+:heavy_check_mark: Tela para atualização de dados, senha;\
 :heavy_check_mark: Upload e Atualização de imagem(avatar) do usuário
 
 
