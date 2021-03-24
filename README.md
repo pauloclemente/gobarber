@@ -5,9 +5,6 @@
 
   <!-- <a href="https://gobarber.netlify.app">Demo</a> -->
 </div>
-
-<h1 align="center">Gobarber</h1>
-
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/pauloclemente/gobarber?color=56BEB8">
 
@@ -50,7 +47,7 @@ O projeto desenvolvido durante o bootcamp da Rocketseat,o GoStack 11.
 
 É uma aplicação completa para uma prestadora de serviços de beleza fictícia, a GoBarber.
 
-O GoBarber é uma aplicação de controle de agendamentos de barbeiros(as)  que permite ao cliente da barbearia o cadastro na plataforma e a possibilidade realizar os seus agendamentos pela aplicação mobile. Para a barbearia, existe a aplicação web para, além de fazer o cadastro de usuário, o gerenciamento de seus agendamentos.
+GoBarber é uma aplicação de controle de agendamentos de barbeiros(as)  que permite ao cliente da barbearia o cadastro na plataforma e a possibilidade realizar os seus agendamentos pela aplicação mobile. Para a barbearia, existe a aplicação web para, além de fazer o cadastro de usuário, o gerenciamento de seus agendamentos.
 
 A aplicação guarda no banco de dados os usuários criados e os seus agendamentos. Também existe um sistema de cache de agendamentos utilizando o Redis para proporcionar melhor User Experience ao diminuir o tempo das requisições.
 
