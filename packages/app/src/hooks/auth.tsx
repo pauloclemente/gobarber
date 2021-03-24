@@ -26,6 +26,7 @@ interface IAuthContextDTO {
   user: IUser
   signIn(credencials: ISignInCredendials): Promise<void>
   signOut(): void
+  updateUser(user: IUser): Promise<void>
 }
 const AuthContext = createContext<IAuthContextDTO>({} as IAuthContextDTO)
 
@@ -64,8 +65,21 @@ const AuthProvider: React.FC = ({ children }) => {
     await AsyncStorare.multiRemove(['@GoBarber:token', '@GoBarber:user'])
     setData({} as IAuthState)
   }, [])
+  const updateUser = useCallback(
+    async (user: IUser) => {
+      await AsyncStorare.setItem('@GoBarber:user', JSON.stringify(user))
+      setData({
+        token: data.token,
+        user
+      })
+    },
+    [setData, data.token]
+  )
+
   return (
-    <AuthContext.Provider value={{ user: data.user, signIn, signOut, loading }}>
+    <AuthContext.Provider
+      value={{ user: data.user, signIn, signOut, loading, updateUser }}
+    >
       {children}
     </AuthContext.Provider>
   )
