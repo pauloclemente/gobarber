@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src=".github/LogoColor.png" alt="Gobarber" />
+  <img src="https://github.com/pauloclemente/gobarber/blob/main/packages/web/src/assets/logo.svg" />
 
   &#xa0;
 
@@ -46,19 +46,24 @@
 
 ## :dart: About ##
 
-Describe your project
+O projeto desenvolvido durante o bootcamp da Rocketseat,o GoStack 11.
+
+É uma aplicação completa para uma prestadora de serviços de beleza fictícia, a GoBarber.
+
+O GoBarber é uma aplicação de controle de agendamentos de barbeiros(as)  que permite ao cliente da barbearia o cadastro na plataforma e a possibilidade realizar os seus agendamentos pela aplicação mobile. Para a barbearia, existe a aplicação web para, além de fazer o cadastro de usuário, o gerenciamento de seus agendamentos.
+
+A aplicação guarda no banco de dados os usuários criados e os seus agendamentos. Também existe um sistema de cache de agendamentos utilizando o Redis para proporcionar melhor User Experience ao diminuir o tempo das requisições.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Autenticação de prestadores de serviço;\
-:heavy_check_mark: Cadastro de prestadores de serviço;\
-:heavy_check_mark: Mensagens de erro em forma de toast;\
-:heavy_check_mark: Painel de visualização dos agendamentos;\
-:heavy_check_mark: Envios de notificações ao agendar serviço;\
-:heavy_check_mark: Marcação de notificação como lida;\
-:heavy_check_mark: Tela para atualização de dados, senha;\
-:heavy_check_mark: Upload e Atualização de imagem(avatar) do usuário
-
+:heavy_check_mark: Authentication of service providers;\
+:heavy_check_mark: Registration of service providers;\
+:heavy_check_mark: Error messages like toast;\
+:heavy_check_mark: Schedule display panel;\
+:heavy_check_mark: Sending notifications when scheduling service;\
+:heavy_check_mark: Notification already read;\
+:heavy_check_mark: Data and password update screen;\
+:heavy_check_mark: Upload and Update user image (avatar); 
 
 
 
